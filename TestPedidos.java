@@ -39,7 +39,8 @@ public class TestPedidos {
 
         Pedido pedido4 = new Pedido();
         pedido4.nombre = "Sam"; 
-
+        
+        
         // Agrega a la lista del pedido 2 el artículo 1 y que aumente el total.
         pedido2.items.add(articulo1);
         pedido2.total += articulo1.price;
@@ -70,6 +71,18 @@ public class TestPedidos {
         System.out.printf("Nombre: %s\n", pedido1.nombre);
         System.out.printf("Total: %s\n", pedido1.total);
         System.out.printf("Listo: %s\n", pedido1.listo);
+
+        System.out.printf("Nombre: %s\n", pedido2.nombre);
+        System.out.printf("Total: %s\n", pedido2.total);
+        System.out.printf("Listo: %s\n", pedido2.listo);
+
+        System.out.printf("Nombre: %s\n", pedido3.nombre);
+        System.out.printf("Total: %s\n", pedido3.total);
+        System.out.printf("Listo: %s\n", pedido3.listo);
+
+          System.out.printf("Nombre: %s\n", pedido4.nombre);
+        System.out.printf("Total: %s\n", pedido4.total);
+        System.out.printf("Listo: %s\n", pedido4.listo);
 
 
         
